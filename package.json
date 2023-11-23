@@ -1,0 +1,29 @@
+{
+  "name": "@9akashnp8/express-response-module",
+  "version": "0.0.1",
+  "description": "Standardized response module",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "scripts": {
+    "build": "npx tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/9akashnp8/express-response-module.git"
+  },
+  "author": "Akash NP <akashnp1998@gmail.com> (akashnp.dev)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/9akashnp8/express-response-module/issues"
+  },
+  "homepage": "https://github.com/9akashnp8/express-response-module#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.20"
+  }
+}
